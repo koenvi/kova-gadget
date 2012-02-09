@@ -27,8 +27,19 @@
       var supported_views = gadgets.views.getSupportedViews();
       gadgets.views.requestNavigateTo(supported_views[dest]);
     };
+    
+    function listViews() {
+      var supported_views = gadgets.views.getSupportedViews();
+      document.write(supported_views.join();
+    };
+    
   </script>
   <a href="javascript:goToView('home')" >Go to home view</a><br><br>
+  
+  <script type="text/javascript">
+    listViews();
+  </script
+  
   ]]> 
   </Content>
   </Module>
