@@ -30,15 +30,17 @@
     
     function listViews() {
       var supported_views = gadgets.views.getSupportedViews();
-      document.write(supported_views.join();
+      document.write(supported_views.join());
     };
     
   </script>
-  <a href="javascript:goToView('home')" >Go to home view</a><br><br>
+  <a href="javascript:goToView('home')">Go to home view</a><br><br>
+
+  <div id='listviews'></div>
   
   <script type="text/javascript">
     listViews();
-  </script
+  </script>
   
   ]]> 
   </Content>
